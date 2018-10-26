@@ -45,3 +45,10 @@ yarn-only@^1.0.1:
   resolved "https://registry.yarnpkg.com/yarn-only/-/yarn-only-1.0.1.tgz#1a6591eb2eb3edb0443ac500d9e4fe5bc06ca22e"
   dependencies:
     chalk "^2.4.1"
+
+yarn-only@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/yarn-only/-/yarn-only-1.0.3.tgz#28c50d3fe8cb147c7dc601bd72de91ab5043d1af"
+  dependencies:
+    chalk "^2.4.1"
+    yarn-only "^1.0.1"
