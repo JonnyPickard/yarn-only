@@ -1,6 +1,6 @@
 {
   "name": "yarn-only",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "When used prevents developers from installing using npm",
   "bin": "index.js",
   "engines": {
