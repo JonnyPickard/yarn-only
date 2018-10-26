@@ -3,16 +3,20 @@
   "version": "1.0.1",
   "description": "When used prevents developers from installing using npm",
   "files": [
-    "./index.js"
+    "index.js"
   ],
   "bin": {
-    "yarn-only": "./index.js"
+    "yarn-only": "index.js"
   },
   "repository": "git@github.com:JonnyPickard/yarn-only.git",
   "homepage": "https://github.com/JonnyPickard/yarn-only#readme",
   "author": "Jonny Pickard",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "yarn-only": "^1.0.1"
+  },
+  "scripts": {
+    "preinstall": "yarn-only"
   }
 }
